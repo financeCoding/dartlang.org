@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: "Using JavaScript from Dart: The js Library"
 rel:
   author: vijay-menon
@@ -11,6 +11,8 @@ article:
   updated_on: 2013-06-01
   collection: libraries-and-apis
 ---
+
+{% include toc.html %}
 
 # {{ page.title }}
 
@@ -27,9 +29,6 @@ and executed in a modern browser.
 
 The library is implemented in the GitHub project
 [dart-lang/js-interop](https://github.com/dart-lang/js-interop).
-
-
-{% include toc.html %}
 
 ## Video tutorial
 
