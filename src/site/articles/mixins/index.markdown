@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: article
 title: "Mixins in Dart"
 description: "Mixins will let you implement functionality once and use it in multiple classes."
 rel:
@@ -9,6 +9,8 @@ article:
   written_on: 2012-12-18
   collection: language-details
 ---
+
+{% include toc.html %}
 
 # {{ page.title }}
 
@@ -22,9 +24,6 @@ while allowing future evolution toward a full-fledged mixin implementation.
 This restricted version already provides considerable value.
 
 The intent is to incorporate mixins into Dart in M3.
-
-{% include toc.html %}
-
 
 ## Basic concepts
 
