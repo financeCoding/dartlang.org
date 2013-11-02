@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: "Milestone 1 Language Changes"
 rel:
   author: bob-nystrom
@@ -12,6 +12,8 @@ article:
   collection: language-details
 ---
 
+{% include toc.html %}
+
 # {{ page.title }}
 
 _Written by Bob Nystrom <br />
@@ -22,9 +24,6 @@ Right now as we near our "Milestone 1" release, we are making a slew of fun
 language changes. There are tracking bugs in the repo for all of them, but I
 wanted to run through them here and try to provide some context and rationale
 where I can.
-
-{% include toc.html %}
-
 
 {::comment}
 1. [Callable objects](#callable-objects)

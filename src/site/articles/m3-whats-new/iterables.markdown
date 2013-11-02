@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: "Iterables"
 description: "The Iterable API has changed, affecting all collections, such as lists and sets. Learn about the new API and how to update your code."
 has-permalinks: true
@@ -9,6 +9,8 @@ article:
   written_on: 2013-01-30
   collection: libraries-and-apis
 ---
+
+{% include toc.html %}
 
 # {{ page.title }}
 
@@ -25,9 +27,6 @@ This article summarizes the functions and getters
 that are now available in Iterable.
 You might also want to refer to the
 [Iterable API documentation](http://api.dartlang.org/dart_core/Iterable.html).
-
-{% include toc.html %}
-
 
 ## Methods that return new Iterables
 

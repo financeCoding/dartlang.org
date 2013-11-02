@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: "What's New with Dart's M2 Release"
 rel:
   author: seth-ladd
@@ -10,6 +10,8 @@ article:
   written_on: 2012-12-01
   collection: language-details
 ---
+
+{% include toc.html %}
 
 # {{ page.title }}
 
@@ -23,9 +25,6 @@ features like self-service uploads to pub, SSL in the VM, theme support in Dart
 Editor, the Web UI package, and much more.
 
 While not an exhaustive list, here are some of the highlights from M2.
-
-{% include toc.html %}
-
 
 ## dart2js shrinks generated code size, gets a startup boost
 {:#dart2js-shrinks-output}
