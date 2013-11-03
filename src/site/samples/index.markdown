@@ -17,15 +17,15 @@ experimentation.
 
 {% injectdata samples samples/samples.yaml %}
 <div class="row">
-  <div class="span6">
+  <div class="col-md-6">
     {% for group in page.samples.col1 %}
       <div class="group-heading">{{ group.heading }}</div>
       {% for example in group.examples %}
-        <div class="row-fluid example">
-          <div class="span8">
+        <div class="row example">
+          <div class="col-md-8">
             <div class="title"><a href="{{ example.explanation_url }}">{{ example.title }}</a></div>
           </div>
-          <div class="span4">
+          <div class="col-md-4">
             <div class="link"><a href="{{ example.source_url }}">Source</a></div>
 
             <div class="link pull-right">
@@ -38,15 +38,15 @@ experimentation.
       {% endfor %}
     {% endfor %}
   </div>
-  <div class="span6">
+  <div class="col-md-6">
     {% for group in page.samples.col2 %}
       <div class="group-heading">{{ group.heading }}</div>
       {% for example in group.examples %}
-        <div class="row-fluid example">
-          <div class="span8">
+        <div class="row example">
+          <div class="col-md-8">
             <div class="title"><a href="{{ example.explanation_url }}">{{ example.title }}</a></div>
           </div>
-          <div class="span4">
+          <div class="col-md-4">
             <div class="link"><a href="{{ example.source_url }}">Source</a></div>
 
             <div class="link pull-right">
