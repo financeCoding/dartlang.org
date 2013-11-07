@@ -26,7 +26,7 @@ experimentation.
             <div class="title"><a href="{{ example.explanation_url }}">{{ example.title }}</a></div>
           </div>
           <div class="col-md-4">
-            <div class="link"><a href="{{ example.source_url }}">Source</a></div>
+            <div class="link pull-left"><a href="{{ example.source_url }}">Source</a></div>
 
             <div class="link pull-right">
               {% if example.tryit_url %}
@@ -47,7 +47,7 @@ experimentation.
             <div class="title"><a href="{{ example.explanation_url }}">{{ example.title }}</a></div>
           </div>
           <div class="col-md-4">
-            <div class="link"><a href="{{ example.source_url }}">Source</a></div>
+            <div class="link pull-left"><a href="{{ example.source_url }}">Source</a></div>
 
             <div class="link pull-right">
               {% if example.tryit_url %}
